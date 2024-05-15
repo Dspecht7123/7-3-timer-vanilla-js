@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Interval Timer</title>
+</head>
+
+<body>
+    <div class="input-container">
+        <div>
+            <label for="workoutTime">workout [seconds]: </label>
+        </div>
+        <input type="number" id="workoutTime" value="7">
+    </div>
+    <div class="input-container">
+        <div>
+            <label for="breakTime">break time [seconds]: </label>
+        </div>
+        <input type="number" id="breakTime" value="3">
+    </div>
+    <div class="input-container">
+        <div>
+            <label for="intervals">intervals: </label>
+        </div>
+        <input type="number" id="intervals" value="6">
+    </div>
+    <div class="input-container">
+        <div>
+            <label for="setBreakTime">set break time [seconds]: </label>
+        </div>
+        <input type="number" id="setBreakTime" value="30">
+    </div>
+    <div class="input-container">
+        <div>
+            <label for="sets">sets: </label>
+        </div>
+        <input type="number" id="sets" value="5">
+    </div>
+
+    <div class="buttonContainer">
+        <div>
+            <button class="button" id="start">Start</button>
+        </div>
+        <div>
+            <button class="button" id="stop">Stop</button>
+        </div>
+        <div>
+            <button class="button" id="reset">Reset</button>
+        </div>
+    </div>
+
+    <div class="timer-container" id="timerContainer">
+        <table>
+            <tr>
+                <td>timer:</td>
+                <td>
+                    <div id="time"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>finished sets:</td>
+                <td>
+                    <div id="remainingSet"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>total sets:</td>
+                <td>
+                    <div id="totalSets"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>finished intervals:</td>
+                <td>
+                    <div id="remainingInterval"></div>
+                </td>
+            </tr>
+            <tr>
+                <td>total intervals:</td>
+                <td>
+                    <div id="totalIntervals"></div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

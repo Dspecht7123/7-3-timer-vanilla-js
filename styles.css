@@ -1,0 +1,49 @@
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    margin: 1vh;
+}
+
+.buttonContainer>div {
+    margin: 1vh;
+    padding: 1vh;
+}
+
+.button {
+    width: 20vw;
+    height: 3em;
+}
+
+.input-container {
+    width: 90vw;
+    margin: 1vh;
+}
+
+.input-container>input {
+    width: 90vw;
+    font-size: 16px;
+}
+
+table {
+    font-size: 1.9em;
+}
+
+table > div {
+    font-size: 1.5em;
+}
+
+.timer-container {
+    border-radius: 0.5em;
+}
+
+.timer-container-green {
+    background-color: green;
+}
+
+.timer-container-red {
+    background-color: red;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+}
